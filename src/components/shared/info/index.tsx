@@ -97,7 +97,7 @@ export async function InfoSection() {
             <div className="absolute -inset-4 bg-gray-50 rounded-3xl border-2 border-black transform -rotate-1 transition-transform duration-300 group-hover:-rotate-2" />
             <div className="relative bg-white rounded-3xl border-2 border-black p-4 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
               <div className="grid grid-cols-1 gap-4">
-                {[data.image4].map(
+                {[data.image1].map(
                   (img, i) =>
                     img && (
                       <div
